@@ -5,42 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <nav class="header-nav">
         <a class="header-logo" href="./index.html">
           <img src="./images/logo.svg" alt="Лого сайта" />
         </a>
 
         <ul class="header-list">
-          <li class="header-item"><a class="header-link" href="">О нас</a></li>
           <li class="header-item">
-            <a class="header-link" href="">Услуги и цены</a>
+            <a class="header-link link" href="">О нас</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="">Мастера</a>
+            <a class="header-link link" href="">Услуги и цены</a>
           </li>
           <li class="header-item">
-            <a class="header-link" href="">Контакты</a>
+            <a class="header-link link" href="">Мастера</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Контакты</a>
           </li>
         </ul>
       </nav>
 
       <a class="header-tel link" href="tel:+380441111111">+38 044 111 11 11</a>
-      <button class="header-btn" type="button">онлайн-запись</button>
+      <button class="header-btn btn" type="button">онлайн-запись</button>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero container">
         <ul class="hero-list">
-          <li class="hero-item"><a class="hero-link" href="">Instagram</a></li>
-          <li class="hero-item"><a class="hero-link" href="">Youtube</a></li>
+          <li class="hero-item">
+            <a class="hero-link link" href="">Instagram</a>
+          </li>
+          <li class="hero-item">
+            <a class="hero-link link" href="">Youtube</a>
+          </li>
         </ul>
 
         <div class="hero-right">
-          <p class="hero-sub-title" lang="en">A hair salon for men in Kyiv</p>
+          <p class="hero-sub-title sub-title" lang="en">
+            A hair salon for men in Kyiv
+          </p>
           <h1 class="hero-title" lang="en">BarberShop</h1>
           <p class="hero-after-title">
             Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и
@@ -49,7 +63,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about container">
         <ul class="about-list">
           <li class="about-item">
             <img
@@ -70,9 +84,11 @@
         </ul>
 
         <div class="about-right">
-          <p class="about-sub-title">О нас</p>
-          <h2 class="about-title">Лучший Барбершоп твоего города</h2>
-          <p class="about-after-title">
+          <p class="about-sub-title sub-title">О нас</p>
+          <h2 class="about-title section-title">
+            Лучший Барбершоп твоего города
+          </h2>
+          <p class="about-after-title after-title">
             Если ты хочешь добавить в свой образ больше уверенности – тебе точно
             к нам.
           </p>
@@ -84,18 +100,20 @@
             усовершенствовать каждого, кто к нам приходит!
           </p>
 
-          <button class="about-btn" type="button">онлайн-запись</button>
+          <button class="about-btn btn" type="button">онлайн-запись</button>
         </div>
       </section>
 
-      <section class="prices">
-        <p class="prices-sub-title">Проведи время в компании лучших мастеров</p>
+      <section class="prices container">
+        <p class="prices-sub-title sub-title">
+          Проведи время в компании лучших мастеров
+        </p>
         <h2 class="prices-title">Услуги и цены</h2>
 
         <ul class="prices-list">
           <li class="prices-item">
-            <p class="prices-text">Мужская стрижка</p>
-            <span class="prices-description">от 300 грн.</span>
+            <p class="prices-item-text">Мужская стрижка</p>
+            <span class="prices-item-text">от 300 грн.</span>
           </li>
           <li class="prices-item">
             <p class="prices-item-text">Стрижка бороды</p>
@@ -133,7 +151,7 @@
         <button class="prices-btn" type="button">онлайн-запись</button>
       </section>
 
-      <section class="features">
+      <section class="features container">
         <ul class="features-list">
           <li class="features-item">
             <span class="features-count">600</span>
@@ -163,8 +181,10 @@
         </div>
       </section>
 
-      <section class="masters">
-        <p class="masters-sub-title">для настоящих ценителей атмосферы</p>
+      <section class="masters container">
+        <p class="masters-sub-title sub-title">
+          для настоящих ценителей атмосферы
+        </p>
         <h2 class="masters-title">Наши мастера</h2>
 
         <ul class="masters-list">
@@ -203,8 +223,8 @@
         </ul>
       </section>
 
-      <section class="portfolio">
-        <p class="portfolio-sub-title">
+      <section class="portfolio container">
+        <p class="portfolio-sub-title sub-title">
           На латинском языке “барба” означает “борода”
         </p>
         <h2 class="portfolio-title visually-hidden">Портфолио</h2>
@@ -248,29 +268,29 @@
         </ul>
       </section>
 
-      <section class="appointment">
+      <section class="appointment container">
         <h2 class="appointment-title">Онлайн-запись</h2>
         <button class="appointment-btn" type="button">отправить</button>
       </section>
 
-      <section class="contacts">
+      <section class="contacts container">
         <h2 class="contacts-title">Контакты</h2>
         <address class="contacts-address">
           <ul class="contacts-list">
             <li class="contacts-item">
-              <a href="" class="contacts-link"
+              <a href="" class="contacts-link link"
                 >ул. Васильковая, 7А Киев, 08132</a
               >
             </li>
 
             <li class="contacts-item">
-              <a href="tel:+380441111111" class="contacts-link"
+              <a href="tel:+380441111111" class="contacts-link link"
                 >+38 044 111 11 11</a
               >
             </li>
 
             <li class="contacts-item">
-              <a href="mailto:barbershop@email.com" class="contacts-link"
+              <a href="mailto:barbershop@email.com" class="contacts-link link"
                 >barbershop@email.com</a
               >
             </li>
@@ -282,15 +302,15 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer container">
       <p class="footer-copy">&copy; Copyright 2020</p>
       <ul class="footer-list list">
         <li class="footer-item">
-          <a class="footer-link" href="">Instagram</a>
+          <a class="footer-link link" href="">Instagram</a>
         </li>
 
         <li class="footer-item">
-          <a class="footer-link" href="">Youtube</a>
+          <a class="footer-link link" href="">Youtube</a>
         </li>
       </ul>
     </footer>
